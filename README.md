@@ -65,14 +65,13 @@ SFM allows you to create new files and (sub-directories) subdees:
 1. At the beginning of your dir
 2. Behind another file/subdee
 
-
 ```
 sfm cf {New-file name} a // Creating file at the beginning of the dir
-sfm cf {New-file name} b {Old-file name} // Creating file behind another file/subdee
+sfm cf {New-file name} b {Another file/subdee name} // Creating file behind another file/subdee
 sfm cf {New-file name} // Creating file without bothering about position
 
 sfm cd {New-subdee name} a // Creating subdee at the beginning of the dir
-sfm cd {New-subdee name} b {Old file name} // Creating subdee behind another file/subdee
+sfm cd {New-subdee name} b {Another file/subdee name} // Creating subdee behind another file/subdee
 sfm cd {New-subdee name} // Creating subdee without bothering about position
 ```
 
@@ -84,10 +83,9 @@ working directory. Files and subdees can be moved:
 1. To the beginning of your dir
 2. Behind another file/subdee
 
-
 ```
 sfm mv {File name or subdee name} a // Moving to The Beginning of The Dir
-sfm mv {File name or subdee name} b {Other file} // Moving to The Back of Another
+sfm mv {File name or subdee name} b {Another file} // Moving to The Back of Another
 		File/Subdee
 ```
 
