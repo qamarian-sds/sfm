@@ -158,13 +158,6 @@ sfm ds // Desegregation of pwd
 sfm /etc ds // Desegregration of "/etc"
 ```
 
-## SFM Help
-
-```
-sfm hp inf // To get some info about the SFM
-sfm hp doc // To get usage document
-```
-
 ## Shortcuts
 
 __**Note:** Shortcuts can change with version.__
@@ -172,4 +165,11 @@ __**Note:** Shortcuts can change with version.__
 ```
 sfm x  | sfm
 sfm xt | sfm t
+```
+
+## SFM Help
+
+```
+sfm hp inf // To get some info about the SFM
+sfm hp doc // To get usage document
 ```
