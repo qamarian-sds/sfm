@@ -3,11 +3,12 @@
 The SDS File Manager (SFM) is a CLI file manager for structured directories (sirectories). It is
 available for all major platforms. Just download an appropriate binary and start using.
 
-Notes
-	*"Dir" would mean directory.
-	*"PWD" would mean user's present working directory.
-	*"Subdee" would mean sub-directory.
-	*"Hidden file" would mean file starting with ".".
+#### Notes
+
+	"Dir" would mean directory.
+	"PWD" would mean user's present working directory.
+	"Subdee" would mean sub-directory.
+	"Hidden file" would mean file starting with ".".
 
 ## Displaying Contents of A Structured Directory (Sirectory)
 
