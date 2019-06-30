@@ -165,5 +165,7 @@ sfm hp doc // To get usage document
 
 __**Note:** Shortcuts can change with version.__
 
+```
 sfm x  | sfm
 sfm xt | sfm t
+```
