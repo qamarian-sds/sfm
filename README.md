@@ -121,7 +121,7 @@ sfm sg db // Subdees would be listed before files.
 
 ## Moving Files and Subdees (Revisited)
 
-If command
+It's worth noting that if command
 
 ```
 sfm mv {File name} a
