@@ -1,4 +1,4 @@
-SDS File Manager (SFM)
+# SDS File Manager (SFM)
 
 The SDS File Manager (SFM) is a CLI file manager for structured directories (sirectories). It is
 available for all major platforms. Just download an appropriate binary and start using.
@@ -9,7 +9,7 @@ Notes
 	"Subdee" would mean sub-directory.
 	"Hidden file" would mean file starting with ".".
 
-Displaying Contents of A Structured Directory (Sirectory)
+## Displaying Contents of A Structured Directory (Sirectory)
 
 SFM allows display of directory contents in an horizontal manner, as well as a vertical a manner.
 
@@ -27,10 +27,10 @@ with the type of its contents also displayed:
 	httpd (D), log.txt (F) // This shows that dir-content "httpd" is a dir, and dir-content
 		"log.txt" is a file.
 
-Syntax
+#### Syntax
 	sfm {A valid-Unix-dir path or ignore if dir is pwd} {Chain of additional commands}
 
-Examples
+#### Examples
 	sfm x // Horizontal display of pwd
 	sfm y // Vertical display of pwd
 	sfm xt // Horizontal display of pwd, with content type displayed
@@ -40,7 +40,7 @@ Examples
 	sfm someDir xt // Horizontal display of a dir not the pwd, with content type displayed
 	sfm someDir yt // Vertical display of a dir not the pwd, with content type displayed
 
-Creating New Files and Subdees
+## Creating New Files and Subdees
 
 SFM allows you to create new files and (sub-directories) subdees:
 
@@ -55,7 +55,7 @@ SFM allows you to create new files and (sub-directories) subdees:
 	sfm cd {New-subdee name} b {Old file name} // Creating subdee behind another file/subdee
 	sfm cd {New-subdee name} // Creating subdee without bothering about position
 
-Moving Files and Subdees
+## Moving Files and Subdees
 
 SFM allows you to move files and subdees about. Movements can be performed only within your present
 working directory. Files and subdees can be moved:
@@ -67,7 +67,7 @@ working directory. Files and subdees can be moved:
 	sfm mv {File name or subdee name} b {Other file} // Moving to The Back of Another
 		File/Subdee
 
-Directory Segregation
+## Directory Segregation
 
 In traditional file managers, files and directories are often segregated. That is, the subdees are
 listed before or after listing the files in the dir. Examples of a segregated dir:
@@ -89,37 +89,37 @@ resegregate them:
 	sfm sg da // Subdees would be listed after the files.
 	sfm sg db // Subdees would be listed before files.
 
-Moving Files and Subdees (Revisited)
+## Moving Files and Subdees (Revisited)
 
 If command "sfm mv {File name} a" or "sfm mv {File name} z" is performed for a file in a structured
 dir, the file would be placed at the beginning of the files section, not necessarily the beginning
 of the dir. The same goes for subdees.
 
-Getting An SDS Dir's Basic Info
+## Getting An SDS Dir's Basic Info
 
 How can you know if an SDS directory is segregated? How can you learn some basic info about an SDS
 dir? Well, by issuing the command:
 
 	sfm {A valid-Unix-dir path or ignore if dir is pwd} di
 
-Examples
+#### Examples
 	sfm di // Basic SDS info of pwd
 	sfm /etc di // Basic SDS info of "/etc"
 
-Desegregating a Segregated Dir
+## Desegregating a Segregated Dir
 
 	sfm {A valid-Unix-dir path or ignore if dir is pwd} ds
 
-Examples
+#### Examples
 	sfm ds // Desegregation of pwd
 	sfm /etc ds // Desegregration of "/etc"
 
-SFM Help
+## SFM Help
 
 	sfm hp inf // To get some info about the SFM
 	sfm hp doc // To get usage document
 
-Shortcuts
+## Shortcuts
 
 Note: Shortcuts can change with version.
 
