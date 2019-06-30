@@ -85,7 +85,7 @@ working directory. Files and subdees can be moved:
 
 ```
 sfm mv {File name or subdee name} a // Moving to The Beginning of The Dir
-sfm mv {File name or subdee name} b {Another file} // Moving to The Back of Another
+sfm mv {File name or subdee name} b {Another file/subdee name} // Moving to The Back of Another
 		File/Subdee
 ```
 
