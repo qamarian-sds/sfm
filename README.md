@@ -45,8 +45,8 @@ with the type of its contents also displayed:
 
 SFM allows you to create new files and (sub-directories) subdees:
 
-	- at the beginning of your dir;
-	- behind another file/subdee
+1. At the beginning of your dir
+2. Behind another file/subdee
 
 	sfm cf {New-file name} a // Creating file at the beginning of the dir
 	sfm cf {New-file name} b {Old-file name} // Creating file behind another file/subdee
@@ -61,8 +61,8 @@ SFM allows you to create new files and (sub-directories) subdees:
 SFM allows you to move files and subdees about. Movements can be performed only within your present
 working directory. Files and subdees can be moved:
 
-	- to the beginning of your dir;
-	- behind another file/subdee
+1. To the beginning of your dir
+2. Behind another file/subdee
 
 	sfm mv {File name or subdee name} a // Moving to The Beginning of The Dir
 	sfm mv {File name or subdee name} b {Other file} // Moving to The Back of Another
