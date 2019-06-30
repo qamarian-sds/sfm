@@ -121,9 +121,9 @@ sfm sg db // Subdees would be listed before files.
 
 ## Moving Files and Subdees (Revisited)
 
-If command "sfm mv {File name} a" or "sfm mv {File name} z" is performed for a file in a structured
-dir, the file would be placed at the beginning of the files section, not necessarily the beginning
-of the dir. The same goes for subdees.
+If command **sfm mv {File name} a** or **sfm mv {File name} z** is performed for a file in a
+structured dir, the file would be placed at the beginning of the files section, not necessarily the
+beginning of the dir. The same goes for subdees.
 
 ## Getting An SDS Dir's Basic Info
 
