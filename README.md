@@ -66,9 +66,11 @@ working directory. Files and subdees can be moved:
 2. Behind another file/subdee
 
 
-	sfm mv {File name or subdee name} a // Moving to The Beginning of The Dir
-	sfm mv {File name or subdee name} b {Other file} // Moving to The Back of Another
+```
+sfm mv {File name or subdee name} a // Moving to The Beginning of The Dir
+sfm mv {File name or subdee name} b {Other file} // Moving to The Back of Another
 		File/Subdee
+```
 
 ## Directory Segregation
 
