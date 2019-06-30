@@ -125,8 +125,6 @@ It's worth noting that if command
 
 ```
 sfm mv {File name} a
-OR
-sfm mv {File name} z
 ```
 is performed for a file in a structured dir, the file would be placed at the beginning of the files
 section, not necessarily the beginning of the dir. The same goes for subdees.
