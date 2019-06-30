@@ -16,14 +16,14 @@ available for all major platforms. Just download an appropriate binary and start
 
 SFM allows display of directory contents in an horizontal manner, as well as a vertical a manner.
 
-##### Horizontal Manner
+##### Example of horizontal manner
 
 ```
 a.txt b.txt c.txt d.txt
 e.txt f.txt g.txt h.txt
 ```
 
-##### Vertical Manner
+##### Example of vertical manner
 
 ```
 a.txt c.txt e.txt g.txt
