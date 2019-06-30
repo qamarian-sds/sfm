@@ -1,0 +1,3 @@
+- Clean
+- Optimize
+- Revert file to default position
