@@ -48,6 +48,7 @@ SFM allows you to create new files and (sub-directories) subdees:
 1. At the beginning of your dir
 2. Behind another file/subdee
 
+
 	sfm cf {New-file name} a // Creating file at the beginning of the dir
 	sfm cf {New-file name} b {Old-file name} // Creating file behind another file/subdee
 	sfm cf {New-file name} // Creating file without bothering about position
@@ -63,6 +64,7 @@ working directory. Files and subdees can be moved:
 
 1. To the beginning of your dir
 2. Behind another file/subdee
+
 
 	sfm mv {File name or subdee name} a // Moving to The Beginning of The Dir
 	sfm mv {File name or subdee name} b {Other file} // Moving to The Back of Another
