@@ -146,19 +146,6 @@ sfm di // Basic SDS info of pwd
 sfm /etc di // Basic SDS info of "/etc"
 ```
 
-## Desegregating a Segregated Dir
-
-```
-sfm {A valid-Unix-dir path or ignore if dir is pwd} ds
-```
-
-#### Examples
-
-```
-sfm ds // Desegregation of pwd
-sfm /etc ds // Desegregration of "/etc"
-```
-
 ## Shortcuts
 
 __**Note:** Shortcuts can change with version.__
